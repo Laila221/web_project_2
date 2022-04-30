@@ -150,6 +150,7 @@ body {
 }
 .card {
   max-width: 600px;
+  width: 100%;
 }
 .menu__card-content {
   display: flex;
@@ -195,9 +196,133 @@ body {
   flex-grow: 1;
 }
 
-.Recipes {
+.recipes {
   background-image: url("../images/background_recipes.svg");
   background-repeat: no-repeat;
   background-color: #ffffff;
   background-size: cover;
+}
+
+.recipes__title {
+  margin: 100px 80px 0;
+  max-width: 580px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.recipes__subtitle {
+  margin: 24px 80px 0;
+  max-width: 438px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipes__video {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 214px;
+  gap: 40px;
+}
+
+.recipes__video-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recipes_iframe {
+  width: 480px;
+  height: 273px;
+  margin-bottom: 24px;
+}
+
+.video_caption {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservation {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #d9e7ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/background_reservation.svg");
+}
+.reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 100px 0 100px;
+}
+
+.reservation__form {
+  background-color: red;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__labe {
+  font-family: Inter;
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 20px;
+}
+
+.form__input {
+  border-radius: 4px;
+  max-width: 385px;
+  margin: 0 0 32px;
+  font-family: Inter;
+
+  font-style: normal;
+
+  font-weight: normal;
+
+  font-size: 20px;
+
+  line-height: 30px;
+
+  color: #838383;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
+}
+
+.form__button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__checkbox_type_paragraph {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
