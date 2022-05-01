@@ -77,7 +77,6 @@ body {
   line-height: 72px;
 }
 .header__description {
-  max-width: 683px;
   font-family: "Noto Serif", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -117,6 +116,10 @@ body {
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
   color: #838383;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .menu {
@@ -131,7 +134,7 @@ body {
 }
 
 .menu__title {
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -141,7 +144,7 @@ body {
   position: relative;
 }
 .menu__subtitle {
-  font-family: Noto Serif;
+  font-family: "Noto", Serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -175,12 +178,13 @@ body {
 }
 
 .card__list-item {
-  font-family: "Noto", Serif;
+  font-family: "Noto", Serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
+  line-height: 20px;
   color: #ffffff;
-
+  padding-top: 16px;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -188,7 +192,6 @@ body {
 }
 
 .card__list-divider {
-  min-width: 50px;
   border-bottom: solid 1px;
   color: #ffffff;
   margin-left: 8px;
@@ -206,7 +209,7 @@ body {
 .recipes__title {
   margin: 100px 80px 0;
   max-width: 580px;
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -216,7 +219,7 @@ body {
 .recipes__subtitle {
   margin: 24px 80px 0;
   max-width: 438px;
-  font-family: Noto Serif;
+  font-family: "Noto", Serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -237,14 +240,14 @@ body {
   padding: 0;
 }
 
-.recipes_iframe {
+.recipes__iframe {
   width: 480px;
   height: 273px;
   margin-bottom: 24px;
 }
 
 .video_caption {
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -254,75 +257,237 @@ body {
 }
 
 .reservation {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #d9e7ff;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   align-items: center;
+  background-color: #d9e7ff;
   background-image: url("../images/background_reservation.svg");
 }
 .reservation__title {
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 100px 0 100px;
+  margin-top: 100px;
+  margin-bottom: 80px;
 }
 
 .reservation__form {
-  background-color: red;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
+  padding-bottom: 120px;
 }
 
 .form__fieldset {
-  display: flex;
-  flex-direction: column;
+  border: none;
+  padding: 0;
 }
 
-.form__labe {
-  font-family: Inter;
-
+.form__label {
+  text-align: left;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  display: block;
   font-style: normal;
-
   font-weight: 500;
-
   font-size: 16px;
-
   line-height: 20px;
 }
 
 .form__input {
-  border-radius: 4px;
   max-width: 385px;
-  margin: 0 0 32px;
-  font-family: Inter;
-
-  font-style: normal;
-
-  font-weight: normal;
-
-  font-size: 20px;
-
-  line-height: 30px;
-
-  color: #838383;
-  border: 1px solid #cfcfcf;
+  min-width: 385px;
   box-sizing: border-box;
+  padding: 32px;
+  font-family: Inter;
+  height: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.form__button:hover {
+  opacity: 0.7;
 }
 
 .form__button {
-  font-family: Inter;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  min-width: 385px;
+  min-height: 60px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2f80ed;
+}
+
+.form__checkbox {
+  border-radius: 0;
+  min-width: 20px;
+  min-height: 20px;
+  padding-left: 12px;
+  border-radius: 2px;
+}
+
+.form__checkbox_type_paragraph {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
 }
 
-.form__checkbox_type_paragraph {
-  font-family: Inter;
+.about {
+  display: flex;
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  background-color: #0a2750;
+}
+.about__content {
+  font-family: "Noto", Serif, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 173px;
+  max-width: 660px;
+  margin-left: auto;
+  position: relative;
+}
+
+.about__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
+  margin: 0;
+  z-index: 3;
+  position: relative;
+  color: #fff;
+}
+.about__paragraph:first-child {
+  padding-top: 19px;
+}
+.about__paragraph {
+  font-family: "Noto", Serif, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  left: -129px;
+  top: -159px;
+  z-index: 1;
+}
+
+.about__circle_animation_blurred {
+  animation: pulse 1.3s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+}
+
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 60px 0;
+}
+
+.footer__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__logo {
+  width: 152px;
+  height: 32px;
+  margin-left: 80px;
+}
+
+.footer__social-media {
+  padding-right: 100px;
+  color: #fff;
+}
+
+.footer__social-heading {
+  margin: 0;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin: 16px 0 0;
+  color: #ffffff;
+}
+
+.footer__list-item:first-child {
+  margin-top: 20px;
+}
+.footer__social-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer__social-icon {
+  margin-right: 16px;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+}
+
+.footer__copyright {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  margin-left: 80px;
+  color: #ffffff;
 }
