@@ -151,8 +151,11 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 780px;
+  margin: auto;
   text-align: center;
 }
+
 .card {
   max-width: 600px;
   width: 100%;
