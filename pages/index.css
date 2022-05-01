@@ -144,7 +144,7 @@ body {
   position: relative;
 }
 .menu__subtitle {
-  font-family: "Noto", Serif, sans-serif;
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -178,7 +178,7 @@ body {
 }
 
 .card__list-item {
-  font-family: "Noto", Serif, sans-serif;
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -219,7 +219,7 @@ body {
 .recipes__subtitle {
   margin: 24px 80px 0;
   max-width: 438px;
-  font-family: "Noto", Serif, sans-serif;
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -360,7 +360,7 @@ body {
   background-color: #0a2750;
 }
 .about__content {
-  font-family: "Noto", Serif, sans-serif;
+  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
