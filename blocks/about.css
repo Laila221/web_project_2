@@ -9,7 +9,6 @@
   background-color: #0a2750;
 }
 .about__content {
-  font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -21,7 +20,7 @@
 }
 
 .about__title {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -32,16 +31,22 @@
   position: relative;
   color: #fff;
 }
+
+.about__paragraph:last-child {
+  padding-bottom: 20px;
+}
 .about__paragraph:first-child {
-  padding-top: 19px;
+  padding-top: 0;
 }
 .about__paragraph {
-  font-family: "Noto Serif", Times New Roman, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: #fff;
+  margin: 0;
+  padding-bottom: 32px;
 }
 .about__circle {
   background-color: #2f80ed;

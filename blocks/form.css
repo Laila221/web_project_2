@@ -7,7 +7,7 @@
   text-align: left;
   margin-top: 32px;
   margin-bottom: 8px;
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   display: block;
   font-style: normal;
   font-weight: 500;
@@ -18,7 +18,7 @@
 .form__input {
   max-width: 385px;
   min-width: 385px;
-  padding: 32px;
+  padding: 24px;
   font-family: Inter;
   height: 60px;
   font-style: normal;
@@ -34,7 +34,7 @@
 }
 
 .form__button {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -47,6 +47,7 @@
   border: none;
   border-radius: 4px;
   background-color: #2f80ed;
+  color: #fff;
 }
 
 .form__checkbox {
@@ -57,7 +58,7 @@
 }
 
 .form__checkbox_type_paragraph {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
