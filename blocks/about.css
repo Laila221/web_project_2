@@ -33,10 +33,10 @@
 }
 
 .about__paragraph:last-child {
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 .about__paragraph:first-child {
-  padding-top: 0;
+  padding-top: 19px;
 }
 .about__paragraph {
   font-family: "Noto Serif", "Times New Roman", serif;
